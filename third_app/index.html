@@ -1,0 +1,18 @@
+<html ng-app='MainApp'>
+
+	<script src='angular.js'></script>
+	<script src='app.js'/></script>
+
+	<head>
+		<title> This is the third app </title>
+	</head>
+	<body ng-controller='MainController'>
+		<h1> Third app </h1> {{name}}<br> 
+		<input type='text'
+		ng-model='input_value'
+		ng-keyup='changeValue()'>
+		<br> The calculated value is: {{calculated_value}}
+	</body>
+
+</html>
+

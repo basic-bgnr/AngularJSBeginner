@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html ng-app="myFirstApp">
+	<head>
+		<meta charset = "utf-8">
+		<script src = "angular.js"> </script>
+		<script src = "app.js"> </script>
+		<title> My first Angular App  </title>
+	</head>
+	<body>
+		<h1> My first AngularJS App</h1>now using browser-sync for rapid development
+		<div ng-controller="myFirstController">
+			{{name}} <br>
+			{{sayName()}} <br> 
+
+			<input type="text" ng-model="name"/> <br>
+			the input text is {{name}} 
+		
+		</div>
+	</body>
+</html>
+

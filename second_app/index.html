@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html ng-app="NameCalculator">
+	<head>
+		<script src = "angular.js"> </script>
+		<script src = "app.js"> </script>
+		<title> My Second Angular App  </title>
+	</head>
+	<body>
+		<h1> Name Calculator </h1>now using browser-sync
+		for rapid development
+
+		<div ng-controller="NameCalculatorController">
+			<input type="text" 
+	                 ng-model="name"  
+		         ng-keyup="calculateName();">
+			The calculated value is {{totalValue}}
+		<br> 
+		</div>
+	</body>
+</html>
+
